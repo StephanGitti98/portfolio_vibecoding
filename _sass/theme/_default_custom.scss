@@ -1,0 +1,56 @@
+/* ==========================================================================
+   CUSTOM THEME
+   ========================================================================== */
+
+/* Color codes used for the theme */
+$gray : #7a8288;
+$dark-gray : mix(#000, $gray, 40%);
+$darker-gray : mix(#000, $gray, 60%);
+$light-gray : mix(#fff, $gray, 50%);
+$lighter-gray : mix(#fff, $gray, 90%);
+
+/* Color codes used for the site */
+$danger-color : #ee5f5b;
+$info-color : #2f7f93;
+$notice-color : #7a8288;
+$success-color : #62c462;
+$warning-color : #f89406;
+
+/* Other basic settings for the template */
+$border-radius : 4px;
+$box-shadow : 0 1px 1px rgba(0, 0, 0, 0.125);
+$global-transition : all 0.2s ease-in-out;
+$masthead-height : 70px;
+$navicon-width : 28px;
+$navicon-height : 4px;
+$sidebar-link-max-width : 250px;
+$sidebar-screen-min-width : 1024px;
+
+/* Custom theme colors */
+$custom-background : #1a237e;
+$custom-background-light : mix(#fff, $custom-background, 20%);
+$custom-background-lighter : mix(#fff, $custom-background, 30%);
+$custom-text : #ffffff;
+$custom-link : #64b5f6;
+$custom-link-dark : mix(#000, $custom-link, 15%);
+$custom-link-light : mix(#fff, $custom-link, 25%);
+
+/* Custom theme for the site */
+html[data-theme="custom"] {
+    --global-base-color : #{$custom-background};
+    --global-bg-color : #{$custom-background};
+    --global-footer-bg-color : #{$custom-background};
+    --global-border-color : #{$light-gray};
+    --global-dark-border-color : #{$custom-background-light};
+    --global-code-background-color: #e3f2fd;
+    --global-code-text-color : #{$darker-gray};
+    --global-fig-caption-color : #{$light-gray};
+    --global-link-color : #{$custom-link};
+    --global-link-color-hover : #{$custom-link-dark};
+    --global-link-color-visited : #{$custom-link-light};
+    --global-masthead-link-color : #{$custom-text};
+    --global-masthead-link-color-hover : #{$custom-background-light};
+    --global-text-color : #{$custom-text};
+    --global-text-color-light: #e3f2fd;
+    --global-thead-color : #{$custom-background-lighter};
+}
