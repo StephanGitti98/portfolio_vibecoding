@@ -1,24 +1,24 @@
 /* ==========================================================================
-   CUSTOM THEME
+   CUSTOM THEME - Black & White with Inter Font
    ========================================================================== */
 
-/* Color codes used for the theme */
-$gray : #7a8288;
-$dark-gray : mix(#000, $gray, 40%);
-$darker-gray : mix(#000, $gray, 60%);
-$light-gray : mix(#fff, $gray, 50%);
-$lighter-gray : mix(#fff, $gray, 90%);
+/* Gray scale for the theme */
+$gray : #888888;
+$dark-gray : #444444;
+$darker-gray : #222222;
+$light-gray : #aaaaaa;
+$lighter-gray : #cccccc;
 
 /* Color codes used for the site */
-$danger-color : #ee5f5b;
-$info-color : #2f7f93;
-$notice-color : #7a8288;
-$success-color : #62c462;
-$warning-color : #f89406;
+$danger-color : #ff4444;
+$info-color : #4488ff;
+$notice-color : #888888;
+$success-color : #44cc44;
+$warning-color : #ffaa00;
 
 /* Other basic settings for the template */
 $border-radius : 4px;
-$box-shadow : 0 1px 1px rgba(0, 0, 0, 0.125);
+$box-shadow : 0 1px 1px rgba(255, 255, 255, 0.05);
 $global-transition : all 0.2s ease-in-out;
 $masthead-height : 70px;
 $navicon-width : 28px;
@@ -26,31 +26,47 @@ $navicon-height : 4px;
 $sidebar-link-max-width : 250px;
 $sidebar-screen-min-width : 1024px;
 
-/* Custom theme colors */
-$custom-background : #1a237e;
-$custom-background-light : mix(#fff, $custom-background, 20%);
-$custom-background-lighter : mix(#fff, $custom-background, 30%);
+/* Custom theme colors - Black & White */
+$custom-background : #000000;
+$custom-background-light : #111111;
+$custom-background-lighter : #1a1a1a;
+$custom-gray-section : #f0f0f0;
 $custom-text : #ffffff;
-$custom-link : #64b5f6;
-$custom-link-dark : mix(#000, $custom-link, 15%);
-$custom-link-light : mix(#fff, $custom-link, 25%);
+$custom-text-gray : #888888;
+$custom-link : #ffffff;
+$custom-link-hover : #888888;
 
 /* Custom theme for the site */
 html[data-theme="custom"] {
     --global-base-color : #{$custom-background};
     --global-bg-color : #{$custom-background};
     --global-footer-bg-color : #{$custom-background};
-    --global-border-color : #{$light-gray};
+    --global-border-color : #{$dark-gray};
     --global-dark-border-color : #{$custom-background-light};
-    --global-code-background-color: #e3f2fd;
-    --global-code-text-color : #{$darker-gray};
-    --global-fig-caption-color : #{$light-gray};
+    --global-code-background-color : #{$custom-background-lighter};
+    --global-code-text-color : #{$custom-text};
+    --global-fig-caption-color : #{$custom-text-gray};
     --global-link-color : #{$custom-link};
-    --global-link-color-hover : #{$custom-link-dark};
-    --global-link-color-visited : #{$custom-link-light};
+    --global-link-color-hover : #{$custom-link-hover};
+    --global-link-color-visited : #{$custom-text-gray};
     --global-masthead-link-color : #{$custom-text};
-    --global-masthead-link-color-hover : #{$custom-background-light};
+    --global-masthead-link-color-hover : #{$custom-text-gray};
     --global-text-color : #{$custom-text};
-    --global-text-color-light: #e3f2fd;
+    --global-text-color-light : #{$custom-text-gray};
     --global-thead-color : #{$custom-background-lighter};
+
+    /* Custom font family for custom theme */
+    --custom-font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+
+    /* Custom gray section background */
+    --custom-gray-section-bg : #{$custom-gray-section};
+    --custom-gray-section-text: #000000;
+
+    /* Glass effect variables */
+    --glass-bg: rgba(255, 255, 255, 0.05);
+    --glass-bg-hover: rgba(255, 255, 255, 0.08);
+    --glass-border: rgba(255, 255, 255, 0.1);
+    --glass-border-hover: rgba(255, 255, 255, 0.2);
+    --glass-blur: 20px;
+    --glass-radius: 24px;
 }

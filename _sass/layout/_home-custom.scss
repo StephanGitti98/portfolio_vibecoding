@@ -1,0 +1,469 @@
+/* ==========================================================================
+   IHM-SPACE INSPIRED STYLES - Clean Minimalist Design
+   ========================================================================== */
+
+/* ===== BASE LAYOUT ===== */
+html[data-theme="custom"] .glass-home {
+    background: #000000;
+    min-height: 100vh;
+    padding: 0;
+}
+
+html[data-theme="custom"] .glass-container {
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 0;
+    width: 100%;
+}
+
+/* ===== TYPOGRAPHY COLORS (IHM-Space tokens) ===== */
+/* 
+   Primary: rgba(255, 255, 255, 1) - #fff
+   Secondary: rgba(255, 255, 255, 0.66)
+   Tertiary: rgba(255, 255, 255, 0.55)
+   Border: rgba(255, 255, 255, 0.08)
+*/
+
+/* ===== HEADER AREA - Different Background ===== */
+html[data-theme="custom"] .masthead {
+    background: rgba(255, 255, 255, 0.02) !important;
+    backdrop-filter: blur(10px);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+/* ===== HERO SECTION ===== */
+html[data-theme="custom"] .ihm-hero {
+    padding: 160px 80px 120px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+
+    @media (max-width: 809px) {
+        padding: 120px 40px 80px;
+    }
+}
+
+html[data-theme="custom"] .ihm-hero-content {
+    max-width: 66%;
+
+    @media (max-width: 809px) {
+        max-width: 100%;
+    }
+}
+
+html[data-theme="custom"] .ihm-hero-title {
+    font-family: 'Inter Medium', 'Inter', sans-serif;
+    font-size: 80px;
+    font-weight: 500;
+    line-height: 106%;
+    letter-spacing: -0.05em;
+    color: #ffffff;
+    margin: 0 0 48px 0;
+
+    @media (max-width: 1199px) {
+        font-size: 60px;
+    }
+
+    @media (max-width: 809px) {
+        font-size: 40px;
+    }
+}
+
+html[data-theme="custom"] .ihm-hero-subtitle {
+    font-family: 'Inter', sans-serif;
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 142%;
+    letter-spacing: -0.035em;
+    color: rgba(255, 255, 255, 0.66);
+    margin: 0;
+
+    @media (max-width: 1199px) {
+        font-size: 28px;
+    }
+
+    @media (max-width: 809px) {
+        font-size: 24px;
+    }
+}
+
+/* ===== SECTION HEADERS - Larger with Divider ===== */
+html[data-theme="custom"] .ihm-section-header {
+    padding-top: 40px;
+    margin-bottom: 64px;
+    border-top: 1px solid rgba(255, 255, 255, 0.08);
+
+    @media (max-width: 809px) {
+        margin-bottom: 40px;
+    }
+}
+
+html[data-theme="custom"] .ihm-section-title {
+    font-family: 'Inter Medium', 'Inter', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    letter-spacing: 0.02em;
+    text-transform: uppercase;
+    color: rgba(255, 255, 255, 0.55);
+    margin: 0;
+}
+
+/* ===== WORK SECTION ===== */
+html[data-theme="custom"] .ihm-work {
+    padding: 0 80px 160px;
+
+    @media (max-width: 809px) {
+        padding: 0 40px 80px;
+    }
+}
+
+html[data-theme="custom"] .ihm-work-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 32px;
+
+    @media (max-width: 809px) {
+        grid-template-columns: 1fr;
+    }
+}
+
+html[data-theme="custom"] .ihm-work-item {
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+    transition: transform 0.4s cubic-bezier(0.4, 0, 0.2, 1), opacity 0.3s ease;
+    cursor: pointer;
+
+    &:hover {
+        transform: scale(1.02);
+
+        .ihm-work-image {
+            transform: scale(1.03);
+        }
+
+        .ihm-arrow {
+            transform: translateX(4px);
+            opacity: 1;
+        }
+    }
+}
+
+html[data-theme="custom"] .ihm-work-item.featured {
+    grid-column: span 2;
+
+    @media (max-width: 809px) {
+        grid-column: span 1;
+    }
+}
+
+html[data-theme="custom"] .ihm-work-image {
+    width: 100%;
+    aspect-ratio: 1.6 / 1;
+    background: #1a1a1a;
+    border-radius: 12px;
+    object-fit: cover;
+    margin-bottom: 24px;
+    overflow: hidden;
+    transition: transform 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+html[data-theme="custom"] .ihm-work-info {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+
+html[data-theme="custom"] .ihm-work-title {
+    font-family: 'Inter Medium', 'Inter', sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+    letter-spacing: -0.025em;
+    color: #ffffff;
+    margin: 0;
+    display: flex;
+    align-items: center;
+}
+
+html[data-theme="custom"] .ihm-arrow {
+    margin-left: 12px;
+    opacity: 0.66;
+    transition: transform 0.3s ease, opacity 0.3s ease;
+}
+
+html[data-theme="custom"] .ihm-work-category {
+    font-family: 'Inter', sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    letter-spacing: -0.03em;
+    color: rgba(255, 255, 255, 0.55);
+    margin: 0;
+}
+
+/* ===== ABOUT SECTION ===== */
+html[data-theme="custom"] .ihm-about {
+    padding: 0 80px 160px;
+
+    @media (max-width: 809px) {
+        padding: 0 40px 80px;
+    }
+}
+
+html[data-theme="custom"] .ihm-about-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 64px;
+
+    @media (max-width: 809px) {
+        grid-template-columns: 1fr;
+        gap: 40px;
+    }
+}
+
+html[data-theme="custom"] .ihm-about-left {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+html[data-theme="custom"] .ihm-about-text {
+    font-family: 'Inter', sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 145%;
+    letter-spacing: -0.03em;
+    color: rgba(255, 255, 255, 0.66);
+    margin: 0;
+
+    @media (max-width: 1199px) {
+        font-size: 22px;
+    }
+
+    @media (max-width: 809px) {
+        font-size: 20px;
+    }
+}
+
+html[data-theme="custom"] .ihm-about-right {
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+}
+
+html[data-theme="custom"] .ihm-detail-group {
+    border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+    padding: 32px 0;
+
+    &:first-child {
+        padding-top: 0;
+    }
+
+    &:last-child {
+        border-bottom: none;
+    }
+}
+
+html[data-theme="custom"] .ihm-detail-label {
+    font-family: 'Inter Medium', 'Inter', sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    color: #ffffff;
+    margin: 0 0 8px 0;
+}
+
+html[data-theme="custom"] .ihm-detail-value {
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.55);
+    margin: 0 0 4px 0;
+}
+
+html[data-theme="custom"] .ihm-detail-subtext {
+    font-family: 'Inter', sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    letter-spacing: -0.03em;
+    line-height: 145%;
+    color: #ffffff;
+    margin: 0;
+}
+
+/* ===== SKILLS SECTION ===== */
+html[data-theme="custom"] .ihm-skills {
+    padding: 0 80px 160px;
+
+    @media (max-width: 809px) {
+        padding: 0 40px 80px;
+    }
+}
+
+html[data-theme="custom"] .ihm-skills-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+html[data-theme="custom"] .ihm-skills-list li {
+    font-family: 'Inter Medium', 'Inter', sans-serif;
+    font-size: 80px;
+    font-weight: 500;
+    line-height: 120%;
+    letter-spacing: -0.05em;
+    color: #ffffff;
+    padding: 48px 0;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+
+    @media (max-width: 1199px) {
+        font-size: 60px;
+    }
+
+    @media (max-width: 809px) {
+        font-size: 40px;
+        padding: 32px 0;
+    }
+
+    &:last-child {
+        border-bottom: none;
+    }
+
+    /* Muted color for secondary skills */
+    &.muted {
+        color: rgba(255, 255, 255, 0.55);
+    }
+}
+
+/* ===== CONTACT / GET IN TOUCH SECTION ===== */
+html[data-theme="custom"] .ihm-contact {
+    padding: 0 80px 160px;
+
+    @media (max-width: 809px) {
+        padding: 0 40px 80px;
+    }
+}
+
+html[data-theme="custom"] .ihm-contact-content {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+html[data-theme="custom"] .ihm-contact-title {
+    font-family: 'Inter Medium', 'Inter', sans-serif;
+    font-size: 80px;
+    font-weight: 500;
+    line-height: 106%;
+    letter-spacing: -0.05em;
+    color: #ffffff;
+    margin: 0;
+
+    @media (max-width: 1199px) {
+        font-size: 60px;
+    }
+
+    @media (max-width: 809px) {
+        font-size: 40px;
+    }
+}
+
+html[data-theme="custom"] .ihm-contact-text {
+    font-family: 'Inter', sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 145%;
+    letter-spacing: -0.03em;
+    color: rgba(255, 255, 255, 0.66);
+    margin: 0;
+    max-width: 600px;
+
+    @media (max-width: 809px) {
+        font-size: 20px;
+    }
+}
+
+html[data-theme="custom"] .ihm-contact-button {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px 48px;
+    background: #ffffff;
+    color: #000000;
+    font-family: 'Inter Medium', 'Inter', sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    letter-spacing: -0.02em;
+    text-decoration: none;
+    border-radius: 50px;
+    border: none;
+    cursor: pointer;
+    transition: transform 0.3s ease, background 0.3s ease;
+    width: fit-content;
+
+    &:hover {
+        transform: scale(1.05);
+        background: rgba(255, 255, 255, 0.9);
+    }
+}
+
+/* ===== FOOTER SECTION ===== */
+html[data-theme="custom"] .ihm-footer {
+    padding: 80px;
+    border-top: 1px solid rgba(255, 255, 255, 0.08);
+
+    @media (max-width: 809px) {
+        padding: 40px;
+    }
+}
+
+html[data-theme="custom"] .ihm-footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 40px;
+
+    @media (max-width: 809px) {
+        flex-direction: column;
+    }
+}
+
+html[data-theme="custom"] .ihm-footer-left {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+html[data-theme="custom"] .ihm-footer-name {
+    font-family: 'Inter Medium', 'Inter', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    color: #ffffff;
+    margin: 0;
+}
+
+html[data-theme="custom"] .ihm-footer-location {
+    font-family: 'Inter', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.55);
+    margin: 0;
+}
+
+html[data-theme="custom"] .ihm-footer-right {
+    display: flex;
+    gap: 32px;
+}
+
+html[data-theme="custom"] .ihm-footer-link {
+    font-family: 'Inter', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.55);
+    text-decoration: none;
+    transition: color 0.3s ease;
+
+    &:hover {
+        color: #ffffff;
+    }
+}
+
+/* ===== HIDE DEFAULT ELEMENTS ===== */
+html[data-theme="custom"] .glass-home .page__footer {
+    display: none;
+}
