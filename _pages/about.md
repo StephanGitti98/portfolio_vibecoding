@@ -57,6 +57,7 @@ redirect_from:
       <p class="ihm-about-text">I started building my skills early as a freelancer and gained experience in various industries. My first project was creating and visualising content for transparent display solutions.</p>
       <p class="ihm-about-text">In recent years, I've worked on supporting startup ideas, optimizing product staging on amazon. And did public relations for medium-sized companies, local organizations for innovative progress and public institutions like universities and museums.</p>
       <p class="ihm-about-text">During my studies, I focused on designing interactive interfaces and graduated in Interaction Design. I continue to educate myself in this field. Since then, I have been working at an agency for industrial communication, contributing to the design and implementation of applications for trade shows, sales, and organization.</p>
+      <a href="/cv/" class="ihm-cv-button">View full CV →</a>
     </div>
     
     <div class="ihm-about-right">
@@ -111,10 +112,6 @@ redirect_from:
       <p class="ihm-footer-name">Stephan — UI Designer</p>
       <p class="ihm-footer-location">based in Nuremberg</p>
       <p class="ihm-footer-copyright">©2024 to ∞</p>
-    </div>
-    <div class="ihm-footer-right">
-      <a href="#" class="ihm-footer-link">Site Owner</a>
-      <a href="#" class="ihm-footer-link">Privacy Policy</a>
     </div>
   </div>
 </footer>
