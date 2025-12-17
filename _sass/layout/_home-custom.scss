@@ -74,7 +74,7 @@ html[data-theme="custom"] .ihm-hero-subtitle {
     line-height: 142%;
     letter-spacing: -0.035em;
     color: rgba(255, 255, 255, 0.66);
-    margin: 0;
+    margin: 0 0 32px 0;
 
     @media (max-width: 1199px) {
         font-size: 28px;
@@ -83,6 +83,14 @@ html[data-theme="custom"] .ihm-hero-subtitle {
     @media (max-width: 809px) {
         font-size: 24px;
     }
+}
+
+html[data-theme="custom"] .ihm-hero-location {
+    font-family: 'Inter', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.55);
+    margin: 0;
 }
 
 /* ===== SECTION HEADERS - 2px White Divider ===== */
@@ -502,6 +510,14 @@ html[data-theme="custom"] .ihm-footer-link {
     @media (max-width: 809px) {
         font-size: 18px;
     }
+}
+
+html[data-theme="custom"] .ihm-footer-copyright {
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.55);
+    margin: 16px 0 0 0;
 }
 
 /* ===== HIDE DEFAULT ELEMENTS ===== */

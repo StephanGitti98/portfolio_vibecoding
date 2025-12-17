@@ -10,7 +10,8 @@ redirect_from:
 <section class="ihm-hero">
   <div class="ihm-hero-content">
     <h1 class="ihm-hero-title">Concept and Visualisation of interactive digital and physical products.</h1>
-    <p class="ihm-hero-subtitle">Passionate UI designer focused on creating both digital and physical products. I enjoy bringing these two aspects together to craft seamless and engaging user experiences.</p>
+    <p class="ihm-hero-subtitle">I'm Stephan, a passionate UI designer focused on creating ideas for digital and physical products. I enjoy bringing these two aspects together to craft seamless and engaging user experiences.</p>
+    <p class="ihm-hero-location">Based in Nuremberg, Germany</p>
   </div>
 </section>
 
@@ -21,7 +22,7 @@ redirect_from:
   
   <div class="ihm-work-grid">
     <a href="#" class="ihm-work-item featured">
-      <div class="ihm-work-image"></div>
+      <img src="/images/viewport_teaser.png" alt="ViewPort" class="ihm-work-image">
       <div class="ihm-work-info">
         <h3 class="ihm-work-title">ViewPort <span class="ihm-arrow">→</span></h3>
         <span class="ihm-work-category">Remote Office Concept</span>
@@ -29,7 +30,7 @@ redirect_from:
     </a>
     
     <a href="#" class="ihm-work-item">
-      <div class="ihm-work-image"></div>
+      <img src="/images/ambient_teaser.png" alt="Ambient&Sound" class="ihm-work-image">
       <div class="ihm-work-info">
         <h3 class="ihm-work-title">Ambient&Sound <span class="ihm-arrow">→</span></h3>
         <span class="ihm-work-category">Speaker Concept</span>
@@ -37,7 +38,7 @@ redirect_from:
     </a>
     
     <a href="#" class="ihm-work-item">
-      <div class="ihm-work-image"></div>
+      <img src="/images/airforce_teaser.png" alt="AirForce Keyvisual" class="ihm-work-image">
       <div class="ihm-work-info">
         <h3 class="ihm-work-title">AirForce Keyvisual <span class="ihm-arrow">→</span></h3>
         <span class="ihm-work-category">Brand campaign</span>
@@ -82,7 +83,7 @@ redirect_from:
 
 <section class="ihm-skills" id="skills">
   <div class="ihm-section-header">
-    <h2 class="ihm-section-title">Skills</h2>
+    <h2 class="ihm-section-title">Concept & Wireframe</h2>
   </div>
   
   <ul class="ihm-skills-list">
@@ -99,20 +100,21 @@ redirect_from:
   
   <div class="ihm-contact-content">
     <h2 class="ihm-contact-title">Let's work together</h2>
-    <p class="ihm-contact-text">If you've got any questions, or you're interested in working with me, please get in touch.</p>
-    <a href="mailto:hello@example.com" class="ihm-contact-button">Contact me</a>
+    <p class="ihm-contact-text">Do you have a question or just want to talk to me? Write me an email or dm me on LinkedIn. Currently based in Nuremberg, Germany</p>
+    <a href="mailto:hello@example.com" class="ihm-contact-button">Email me →</a>
   </div>
 </section>
 
 <footer class="ihm-footer">
   <div class="ihm-footer-content">
     <div class="ihm-footer-left">
-      <p class="ihm-footer-name">ihm.space</p>
-      <p class="ihm-footer-location">Hamburg, Germany</p>
+      <p class="ihm-footer-name">Stephan — UI Designer</p>
+      <p class="ihm-footer-location">based in Nuremberg</p>
+      <p class="ihm-footer-copyright">©2024 to ∞</p>
     </div>
     <div class="ihm-footer-right">
+      <a href="#" class="ihm-footer-link">Site Owner</a>
       <a href="#" class="ihm-footer-link">Privacy Policy</a>
-      <a href="#" class="ihm-footer-link">Imprint</a>
     </div>
   </div>
 </footer>
