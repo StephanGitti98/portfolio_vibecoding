@@ -107,14 +107,12 @@ redirect_from:
 <footer class="ihm-footer">
   <div class="ihm-footer-content">
     <div class="ihm-footer-left">
-      <p class="ihm-footer-name">Ihm.Space</p>
+      <p class="ihm-footer-name">ihm.space</p>
       <p class="ihm-footer-location">Hamburg, Germany</p>
     </div>
     <div class="ihm-footer-right">
       <a href="#" class="ihm-footer-link">Privacy Policy</a>
       <a href="#" class="ihm-footer-link">Imprint</a>
-      <a href="#" class="ihm-footer-link">LinkedIn</a>
-      <a href="#" class="ihm-footer-link">Instagram</a>
     </div>
   </div>
 </footer>

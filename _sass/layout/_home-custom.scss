@@ -85,11 +85,11 @@ html[data-theme="custom"] .ihm-hero-subtitle {
     }
 }
 
-/* ===== SECTION HEADERS - Larger with Divider ===== */
+/* ===== SECTION HEADERS - 2px White Divider ===== */
 html[data-theme="custom"] .ihm-section-header {
     padding-top: 40px;
     margin-bottom: 64px;
-    border-top: 1px solid rgba(255, 255, 255, 0.08);
+    border-top: 2px solid #ffffff;
 
     @media (max-width: 809px) {
         margin-bottom: 40px;
@@ -98,12 +98,20 @@ html[data-theme="custom"] .ihm-section-header {
 
 html[data-theme="custom"] .ihm-section-title {
     font-family: 'Inter Medium', 'Inter', sans-serif;
-    font-size: 16px;
+    font-size: 58px;
     font-weight: 500;
-    letter-spacing: 0.02em;
-    text-transform: uppercase;
-    color: rgba(255, 255, 255, 0.55);
+    letter-spacing: -0.04em;
+    text-transform: none;
+    color: #ffffff;
     margin: 0;
+
+    @media (max-width: 1199px) {
+        font-size: 48px;
+    }
+
+    @media (max-width: 809px) {
+        font-size: 36px;
+    }
 }
 
 /* ===== WORK SECTION ===== */
@@ -390,25 +398,29 @@ html[data-theme="custom"] .ihm-contact-button {
     font-weight: 500;
     letter-spacing: -0.02em;
     text-decoration: none;
-    border-radius: 50px;
+    border-radius: 8px;
     border: none;
     cursor: pointer;
     transition: transform 0.3s ease, background 0.3s ease;
     width: fit-content;
 
     &:hover {
-        transform: scale(1.05);
+        transform: scale(1.02);
         background: rgba(255, 255, 255, 0.9);
     }
 }
 
 /* ===== FOOTER SECTION ===== */
 html[data-theme="custom"] .ihm-footer {
-    padding: 80px;
-    border-top: 1px solid rgba(255, 255, 255, 0.08);
+    padding: 160px 80px;
+    border-top: 2px solid #ffffff;
+
+    @media (max-width: 1199px) {
+        padding: 120px 64px;
+    }
 
     @media (max-width: 809px) {
-        padding: 40px;
+        padding: 80px 40px;
     }
 }
 
@@ -416,6 +428,8 @@ html[data-theme="custom"] .ihm-footer-content {
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
+    max-width: 1280px;
+    margin: 0 auto;
     gap: 40px;
 
     @media (max-width: 809px) {
@@ -426,44 +440,73 @@ html[data-theme="custom"] .ihm-footer-content {
 html[data-theme="custom"] .ihm-footer-left {
     display: flex;
     flex-direction: column;
-    gap: 8px;
+    gap: 16px;
 }
 
 html[data-theme="custom"] .ihm-footer-name {
     font-family: 'Inter Medium', 'Inter', sans-serif;
-    font-size: 16px;
+    font-size: 32px;
     font-weight: 500;
+    letter-spacing: -0.04em;
     color: #ffffff;
     margin: 0;
+
+    @media (max-width: 1199px) {
+        font-size: 28px;
+    }
+
+    @media (max-width: 809px) {
+        font-size: 24px;
+    }
 }
 
 html[data-theme="custom"] .ihm-footer-location {
     font-family: 'Inter', sans-serif;
-    font-size: 14px;
+    font-size: 24px;
     font-weight: 400;
-    color: rgba(255, 255, 255, 0.55);
+    letter-spacing: -0.03em;
+    color: rgba(255, 255, 255, 0.66);
     margin: 0;
+
+    @media (max-width: 1199px) {
+        font-size: 22px;
+    }
+
+    @media (max-width: 809px) {
+        font-size: 20px;
+    }
 }
 
 html[data-theme="custom"] .ihm-footer-right {
     display: flex;
-    gap: 32px;
+    gap: 48px;
+
+    @media (max-width: 809px) {
+        gap: 32px;
+    }
 }
 
 html[data-theme="custom"] .ihm-footer-link {
     font-family: 'Inter', sans-serif;
-    font-size: 14px;
+    font-size: 20px;
     font-weight: 400;
-    color: rgba(255, 255, 255, 0.55);
+    letter-spacing: -0.02em;
+    color: rgba(255, 255, 255, 0.66);
     text-decoration: none;
     transition: color 0.3s ease;
 
     &:hover {
         color: #ffffff;
     }
+
+    @media (max-width: 809px) {
+        font-size: 18px;
+    }
 }
 
 /* ===== HIDE DEFAULT ELEMENTS ===== */
-html[data-theme="custom"] .glass-home .page__footer {
-    display: none;
+html[data-theme="custom"] .glass-home .page__footer,
+html[data-theme="custom"] .page__footer,
+html[data-theme="custom"] footer:not(.ihm-footer) {
+    display: none !important;
 }
