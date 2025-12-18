@@ -1023,6 +1023,21 @@ html[data-theme="custom"] .cv-tile-header {
     }
 }
 
+/* Static Tile (no accordion) */
+html[data-theme="custom"] .cv-tile-static .cv-tile-header {
+    cursor: default;
+}
+
+html[data-theme="custom"] .cv-tile-degree {
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.5);
+    margin: 16px 0 0 0;
+    padding-top: 16px;
+    border-top: 1px solid var(--glass-border);
+}
+
 /* Tile Meta - Badge and Period */
 html[data-theme="custom"] .cv-tile-meta {
     display: flex;

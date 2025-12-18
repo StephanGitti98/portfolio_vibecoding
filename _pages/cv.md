@@ -6,11 +6,11 @@ permalink: /cv/
 
 <section class="cv-audio" id="personal-intro">
   <div class="ihm-section-header">
-    <h2 class="ihm-section-title">Persönliche Vorstellung</h2>
+    <h2 class="ihm-section-title">Personal Introduction</h2>
   </div>
   
   <div class="cv-audio-content">
-    <p class="cv-audio-description">Lerne mich persönlich kennen - höre meine kurze Vorstellung, in der ich über meinen Werdegang und meine Leidenschaft für Design spreche.</p>
+    <p class="cv-audio-description">Get to know me personally - listen to my short introduction where I talk about my journey and passion for design.</p>
     <div class="cv-audio-player">
       <div class="audio-wrapper">
         <div class="audio-icon">
@@ -19,7 +19,7 @@ permalink: /cv/
         <div class="audio-controls">
           <audio controls class="cv-audio-element">
             <source src="/assets/audio/placeholder-cv.mp3" type="audio/mpeg">
-            Dein Browser unterstützt das Audio-Element nicht.
+            Your browser does not support the audio element.
           </audio>
         </div>
       </div>
@@ -29,52 +29,30 @@ permalink: /cv/
 
 <section class="cv-education" id="education">
   <div class="ihm-section-header">
-    <h2 class="ihm-section-title">Ausbildung</h2>
+    <h2 class="ihm-section-title">Education</h2>
   </div>
   
   <div class="cv-grid">
-    <article class="cv-tile scroll-reveal" data-delay="0">
-      <div class="cv-tile-header" onclick="toggleTile(this.parentElement)">
+    <article class="cv-tile cv-tile-static scroll-reveal" data-delay="0">
+      <div class="cv-tile-header">
         <div class="cv-tile-meta">
-          <span class="cv-tile-badge">Aktuell</span>
-          <span class="cv-tile-period">10.2024 - Heute</span>
+          <span class="cv-tile-badge">Current</span>
+          <span class="cv-tile-period">10.2024 - Present</span>
         </div>
         <h3 class="cv-tile-title">User Experience Design</h3>
         <p class="cv-tile-company">Technische Hochschule Ingolstadt</p>
-        <div class="cv-tile-expand">
-          <span class="cv-tile-expand-text">Details anzeigen</span>
-          <span class="cv-tile-expand-icon">↓</span>
-        </div>
-      </div>
-      <div class="cv-tile-content">
-        <div class="cv-tile-details">
-          <div class="cv-detail-item">
-            <h4>Masterstudium</h4>
-            <p>Fokus auf fortgeschrittene UX-Methoden, User Research und strategisches Design Thinking.</p>
-          </div>
-        </div>
+        <p class="cv-tile-degree">Master's Degree · UX Methods, User Research, Design Thinking</p>
       </div>
     </article>
 
-    <article class="cv-tile scroll-reveal" data-delay="100">
-      <div class="cv-tile-header" onclick="toggleTile(this.parentElement)">
+    <article class="cv-tile cv-tile-static scroll-reveal" data-delay="100">
+      <div class="cv-tile-header">
         <div class="cv-tile-meta">
           <span class="cv-tile-period">03.2018 - 03.2021</span>
         </div>
         <h3 class="cv-tile-title">Design</h3>
         <p class="cv-tile-company">Technische Hochschule Nürnberg Georg Simon Ohm</p>
-        <div class="cv-tile-expand">
-          <span class="cv-tile-expand-text">Details anzeigen</span>
-          <span class="cv-tile-expand-icon">↓</span>
-        </div>
-      </div>
-      <div class="cv-tile-content">
-        <div class="cv-tile-details">
-          <div class="cv-detail-item">
-            <h4>Bachelor of Arts</h4>
-            <p>Schwerpunkt Interaction Design mit Fokus auf interaktive Schnittstellen und digitale Produktgestaltung.</p>
-          </div>
-        </div>
+        <p class="cv-tile-degree">Bachelor of Arts · Interaction Design</p>
       </div>
     </article>
   </div>
@@ -82,40 +60,40 @@ permalink: /cv/
 
 <section class="cv-experience" id="experience">
   <div class="ihm-section-header">
-    <h2 class="ihm-section-title">Erfahrung</h2>
+    <h2 class="ihm-section-title">Experience</h2>
   </div>
   
   <div class="cv-grid">
     <article class="cv-tile scroll-reveal" data-delay="0">
       <div class="cv-tile-header" onclick="toggleTile(this.parentElement)">
         <div class="cv-tile-meta">
-          <span class="cv-tile-badge">Aktuell</span>
-          <span class="cv-tile-period">03.2020 - Heute</span>
+          <span class="cv-tile-badge">Current</span>
+          <span class="cv-tile-period">03.2020 - Present</span>
         </div>
         <h3 class="cv-tile-title">User Experience Designer</h3>
         <p class="cv-tile-company">hl-studios GmbH</p>
         <div class="cv-tile-expand">
-          <span class="cv-tile-expand-text">Details anzeigen</span>
+          <span class="cv-tile-expand-text">Show details</span>
           <span class="cv-tile-expand-icon">↓</span>
         </div>
       </div>
       <div class="cv-tile-content">
         <div class="cv-tile-details">
           <div class="cv-detail-item">
-            <h4>UX Konzeption</h4>
-            <p>Entwicklung von User Flows, Wireframes und interaktiven Prototypen sowie Durchführung gezielter Wettbewerbsanalysen.</p>
+            <h4>UX Conception</h4>
+            <p>Development of user flows, wireframes, and interactive prototypes as well as conducting targeted competitive analyses.</p>
           </div>
           <div class="cv-detail-item">
             <h4>Interface Design</h4>
-            <p>Gestaltung von Benutzeroberflächen (UI) und Erstellung von UI-Grafiken für diverse Anwendungen.</p>
+            <p>Design of user interfaces (UI) and creation of UI graphics for various applications.</p>
           </div>
           <div class="cv-detail-item">
             <h4>Motion & Storytelling</h4>
-            <p>Konzeption und grafische Umsetzung illustrativer Storyboards inklusive deren Animation. Erstellung von Micro-Interactions und animierten Inhalten für Apps und Webanwendungen.</p>
+            <p>Conception and graphic implementation of illustrative storyboards including their animation. Creation of micro-interactions and animated content for apps and web applications.</p>
           </div>
           <div class="cv-detail-item">
-            <h4>Grafikdesign</h4>
-            <p>Unterstützung im Tagesgeschäft durch allgemeine Grafikarbeiten und die professionelle Aufbereitung von Präsentationen.</p>
+            <h4>Graphic Design</h4>
+            <p>Support in daily operations through general graphic work and professional preparation of presentations.</p>
           </div>
         </div>
       </div>
@@ -126,30 +104,30 @@ permalink: /cv/
         <div class="cv-tile-meta">
           <span class="cv-tile-period">01.2019 - 07.2024</span>
         </div>
-        <h3 class="cv-tile-title">Öffentlichkeitsarbeit</h3>
-        <p class="cv-tile-company">Freiberuflich · endlosmedia GmbH</p>
+        <h3 class="cv-tile-title">Public Relations</h3>
+        <p class="cv-tile-company">Freelance · endlosmedia GmbH</p>
         <div class="cv-tile-expand">
-          <span class="cv-tile-expand-text">Details anzeigen</span>
+          <span class="cv-tile-expand-text">Show details</span>
           <span class="cv-tile-expand-icon">↓</span>
         </div>
       </div>
       <div class="cv-tile-content">
         <div class="cv-tile-details">
           <div class="cv-detail-item">
-            <h4>Mediale Begleitung & Produktion</h4>
-            <p>Videografische und fotografische Umsetzung von Events sowie Erstellung von Content für die Öffentlichkeitsarbeit.</p>
+            <h4>Media Coverage & Production</h4>
+            <p>Video and photographic coverage of events as well as content creation for public relations.</p>
           </div>
           <div class="cv-detail-item">
-            <h4>Aufbereitung von Fachinhalten</h4>
-            <p>Filmische Umsetzung von Prozessabläufen (z.B. medizinische Eingriffe) und kulturellen Themen für digitale Kanäle und Präsentationen.</p>
+            <h4>Technical Content Preparation</h4>
+            <p>Film production of process workflows (e.g., medical procedures) and cultural topics for digital channels and presentations.</p>
           </div>
           <div class="cv-detail-item">
-            <h4>Zielgruppen-Adaption</h4>
-            <p>Gestaltung und Produktion von Videoformaten, die spezifisch auf die Sehgewohnheiten von Kindern oder Erwachsenen zugeschnitten wurden.</p>
+            <h4>Target Audience Adaptation</h4>
+            <p>Design and production of video formats specifically tailored to the viewing habits of children or adults.</p>
           </div>
           <div class="cv-detail-item">
-            <h4>Visuelle Gestaltung</h4>
-            <p>Bedarfsorientierte, operative Unterstützung bei Grafik-, UI- und Animationsaufgaben.</p>
+            <h4>Visual Design</h4>
+            <p>Needs-based, operational support in graphic, UI, and animation tasks.</p>
           </div>
         </div>
       </div>
@@ -158,13 +136,13 @@ permalink: /cv/
     <article class="cv-tile scroll-reveal" data-delay="200">
       <div class="cv-tile-header" onclick="toggleTile(this.parentElement)">
         <div class="cv-tile-meta">
-          <span class="cv-tile-badge">Aktuell</span>
-          <span class="cv-tile-period">02.2018 - Heute</span>
+          <span class="cv-tile-badge">Current</span>
+          <span class="cv-tile-period">02.2018 - Present</span>
         </div>
-        <h3 class="cv-tile-title">Medien Gestaltung</h3>
-        <p class="cv-tile-company">Freiberuflichkeit</p>
+        <h3 class="cv-tile-title">Media Design</h3>
+        <p class="cv-tile-company">Freelance</p>
         <div class="cv-tile-expand">
-          <span class="cv-tile-expand-text">Details anzeigen</span>
+          <span class="cv-tile-expand-text">Show details</span>
           <span class="cv-tile-expand-icon">↓</span>
         </div>
       </div>
@@ -172,15 +150,15 @@ permalink: /cv/
         <div class="cv-tile-details">
           <div class="cv-detail-item">
             <h4>Visual Content Creation</h4>
-            <p>Erstellung von ansprechenden Grafiken für E-Commerce-Kampagnen und Social Media (Fokus auf Conversion/Sales).</p>
+            <p>Creation of engaging graphics for e-commerce campaigns and social media (focus on conversion/sales).</p>
           </div>
           <div class="cv-detail-item">
-            <h4>Mediale Aufbereitung</h4>
-            <p>Bearbeitung und Optimierung von Bildmaterial für den Einsatz in digitalen und gedruckten Medien.</p>
+            <h4>Media Preparation</h4>
+            <p>Editing and optimization of image material for use in digital and print media.</p>
           </div>
           <div class="cv-detail-item">
-            <h4>Allgemeine Mediengestaltung</h4>
-            <p>Vielfältige Grafikarbeiten für verschiedene Anwendungsbereiche.</p>
+            <h4>General Media Design</h4>
+            <p>Diverse graphic work for various application areas.</p>
           </div>
         </div>
       </div>
@@ -196,10 +174,10 @@ function toggleTile(tile) {
   
   if (isExpanded) {
     tile.classList.remove('expanded');
-    expandText.textContent = 'Details anzeigen';
+    expandText.textContent = 'Show details';
   } else {
     tile.classList.add('expanded');
-    expandText.textContent = 'Weniger anzeigen';
+    expandText.textContent = 'Show less';
   }
 }
 
