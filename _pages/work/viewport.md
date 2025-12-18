@@ -78,9 +78,8 @@ permalink: /work/viewport/
   <img src="/images/work/viewport_06.png" alt="ViewPort UI 2" class="work-img-half">
 </section>
 
-<section class="work-image-grid">
-  <img src="/images/work/viewport_07.png" alt="ViewPort UI 3" class="work-img-half">
-  <img src="/images/work/viewport_08.png" alt="ViewPort UI 4" class="work-img-half">
+<section class="work-image-full">
+  <img src="/images/work/viewport_07.png" alt="ViewPort UI 3" class="work-img-full">
 </section>
 
 <section class="work-process">
@@ -90,24 +89,22 @@ permalink: /work/viewport/
   </div>
 </section>
 
-<section class="work-image-grid">
-  <img src="/images/work/viewport_09.png" alt="ViewPort Development 1" class="work-img-half">
-  <img src="/images/work/viewport_10.png" alt="ViewPort Development 2" class="work-img-half">
-</section>
-
-<section class="work-image-grid">
-  <img src="/images/work/viewport_11.png" alt="ViewPort Detail 1" class="work-img-half">
-  <img src="/images/work/viewport_13.png" alt="ViewPort Detail 2" class="work-img-half">
-</section>
-
-<section class="work-image-grid">
-  <img src="/images/work/viewport_14.png" alt="ViewPort Feature 1" class="work-img-half">
-  <img src="/images/work/viewport_15.png" alt="ViewPort Feature 2" class="work-img-half">
-</section>
-
-<section class="work-image-grid">
-  <img src="/images/work/viewport_16.png" alt="ViewPort Final 1" class="work-img-half">
-  <img src="/images/work/viewport_17.png" alt="ViewPort Final 2" class="work-img-half">
+<section class="work-fullsite">
+  <div class="ihm-section-header">
+    <h2 class="ihm-section-title">Full website</h2>
+  </div>
+  
+  <div class="work-fullsite-stack">
+    <img src="/images/work/viewport_08.png" alt="ViewPort Website Section 1" class="work-img-full">
+    <img src="/images/work/viewport_09.png" alt="ViewPort Website Section 2" class="work-img-full">
+    <img src="/images/work/viewport_10.png" alt="ViewPort Website Section 3" class="work-img-full">
+    <img src="/images/work/viewport_11.png" alt="ViewPort Website Section 4" class="work-img-full">
+    <img src="/images/work/viewport_13.png" alt="ViewPort Website Section 5" class="work-img-full">
+    <img src="/images/work/viewport_14.png" alt="ViewPort Website Section 6" class="work-img-full">
+    <img src="/images/work/viewport_15.png" alt="ViewPort Website Section 7" class="work-img-full">
+    <img src="/images/work/viewport_16.png" alt="ViewPort Website Section 8" class="work-img-full">
+    <img src="/images/work/viewport_17.png" alt="ViewPort Website Section 9" class="work-img-full">
+  </div>
 </section>
 
 <section class="work-summary">

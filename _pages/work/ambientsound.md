@@ -47,7 +47,9 @@ permalink: /work/ambientsound/
 
 <section class="work-image-grid">
   <img src="/images/work/ambient_02.png" alt="Ambient&Sound Concept 1" class="work-img-half">
-  <img src="/images/work/ambient_03.png" alt="Ambient&Sound Concept 2" class="work-img-half">
+  <div class="work-img-bg" style="background: #E3E4E3; border-radius: 16px;">
+    <img src="/images/work/ambient_05.png" alt="Ambient&Sound Concept 2" class="work-img-half" style="border-radius: 16px;">
+  </div>
 </section>
 
 <section class="work-process">
@@ -61,8 +63,9 @@ permalink: /work/ambientsound/
   </div>
 </section>
 
-<section class="work-image-full">
-  <img src="/images/work/ambient_04.png" alt="Ambient&Sound Inspiration" class="work-img-full">
+<section class="work-image-grid">
+  <img src="/images/work/ambient_03.png" alt="Ambient&Sound Sketch 1" class="work-img-half">
+  <img src="/images/work/ambient_04.png" alt="Ambient&Sound Sketch 2" class="work-img-half">
 </section>
 
 <section class="work-process">
@@ -74,8 +77,8 @@ permalink: /work/ambientsound/
 </section>
 
 <section class="work-image-grid">
-  <img src="/images/work/ambient_05.png" alt="Ambient&Sound Design 1" class="work-img-half">
-  <img src="/images/work/ambient_06.png" alt="Ambient&Sound Design 2" class="work-img-half">
+  <img src="/images/work/ambient_06.png" alt="Ambient&Sound Design 1" class="work-img-half">
+  <img src="/images/work/ambient_07.png" alt="Ambient&Sound Design 2" class="work-img-half">
 </section>
 
 <section class="work-process">
@@ -85,9 +88,8 @@ permalink: /work/ambientsound/
   </div>
 </section>
 
-<section class="work-image-grid">
-  <img src="/images/work/ambient_07.png" alt="Ambient&Sound Showcase 1" class="work-img-half">
-  <img src="/images/work/ambient_08.png" alt="Ambient&Sound Showcase 2" class="work-img-half">
+<section class="work-image-full">
+  <img src="/images/work/ambient_08.png" alt="Ambient&Sound Showcase" class="work-img-full">
 </section>
 
 <section class="work-image-grid">

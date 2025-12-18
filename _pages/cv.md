@@ -105,7 +105,7 @@ permalink: /cv/
           <span class="cv-tile-period">01.2019 - 07.2024</span>
         </div>
         <h3 class="cv-tile-title">Public Relations</h3>
-        <p class="cv-tile-company">Freelance · endlosmedia GmbH</p>
+        <p class="cv-tile-company">Freelance · Cooperation endlosmedia GmbH</p>
         <div class="cv-tile-expand">
           <span class="cv-tile-expand-text">Show details</span>
           <span class="cv-tile-expand-icon">↓</span>

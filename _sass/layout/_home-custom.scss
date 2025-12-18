@@ -331,7 +331,7 @@ html[data-theme="custom"] .ihm-cv-button {
     padding: 16px 32px;
     background: var(--glass-bg);
     border: 1px solid var(--glass-border);
-    border-radius: 50px;
+    border-radius: 8px;
     backdrop-filter: blur(10px);
     transition: all 0.3s ease;
     position: relative;
@@ -1471,6 +1471,31 @@ html[data-theme="custom"] .work-nav-title {
     font-weight: 500;
     color: #ffffff;
     letter-spacing: -0.02em;
+}
+
+/* Work Fullsite Section (stacked images) */
+html[data-theme="custom"] .work-fullsite {
+    padding: 0 80px 80px;
+
+    @media (max-width: 809px) {
+        padding: 0 40px 60px;
+    }
+}
+
+html[data-theme="custom"] .work-fullsite-stack {
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+    max-width: 1280px;
+    margin: 0 auto;
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
+
+    img {
+        width: 100%;
+        display: block;
+    }
 }
 
 /* ===== SELECTION STYLING ===== */
