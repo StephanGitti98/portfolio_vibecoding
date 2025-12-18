@@ -21,7 +21,7 @@ redirect_from:
   </div>
   
   <div class="ihm-work-grid">
-    <a href="#" class="ihm-work-item featured">
+    <a href="/work/viewport/" class="ihm-work-item featured">
       <img src="/images/viewport_teaser.png" alt="ViewPort" class="ihm-work-image">
       <div class="ihm-work-info">
         <h3 class="ihm-work-title">ViewPort <span class="ihm-arrow">→</span></h3>
@@ -29,7 +29,7 @@ redirect_from:
       </div>
     </a>
     
-    <a href="#" class="ihm-work-item">
+    <a href="/work/ambientsound/" class="ihm-work-item">
       <img src="/images/ambient_teaser.png" alt="Ambient&Sound" class="ihm-work-image">
       <div class="ihm-work-info">
         <h3 class="ihm-work-title">Ambient&Sound <span class="ihm-arrow">→</span></h3>
@@ -37,7 +37,7 @@ redirect_from:
       </div>
     </a>
     
-    <a href="#" class="ihm-work-item">
+    <a href="/work/airforce/" class="ihm-work-item">
       <img src="/images/airforce_teaser.png" alt="AirForce Keyvisual" class="ihm-work-image">
       <div class="ihm-work-info">
         <h3 class="ihm-work-title">AirForce Keyvisual <span class="ihm-arrow">→</span></h3>
