@@ -73,6 +73,13 @@ html[data-theme="custom"] .masthead a:hover {
     text-shadow: 0 0 20px rgba(255, 255, 255, 0.3);
 }
 
+html[data-theme="custom"] .masthead__logo {
+    height: 48px;
+    width: auto;
+    margin-right: 10px;
+    vertical-align: middle;
+}
+
 /* ===== HERO SECTION ===== */
 html[data-theme="custom"] .ihm-hero {
     padding: 160px 80px 120px;
